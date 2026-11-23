@@ -27,7 +27,18 @@ h2{font-size:18px;margin:26px 0 10px;padding-left:10px;border-left:4px solid var
 .jinglabel{color:var(--accent);font-size:13px;border:1px solid var(--accent);border-radius:4px;padding:0 5px;margin-right:5px;vertical-align:1.5px}
 .note{font-size:13px;color:var(--fg2);margin-top:22px;line-height:1.8}
 .note a{color:var(--accent)}
-.back{font-size:13.5px}.back a{color:var(--accent);text-decoration:none}</style></head>
+.back{font-size:13.5px}.back a{color:var(--accent);text-decoration:none}</style>
+<script>
+(function(){
+function pre(e){
+var t=e.target;while(t&&t.tagName!=='A')t=t.parentElement;
+if(t&&t.href&&t.origin===location.origin&&!t.__pf){t.__pf=1;
+var l=document.createElement('link');l.rel='prefetch';l.href=t.href;document.head.appendChild(l);}
+}
+document.addEventListener('touchstart',pre,{passive:true});
+document.addEventListener('mouseenter',pre,true);
+})();
+</script></head>
 <body><div class="wrap"><p class="back"><a href="index.html">← 有學集　目錄</a></p><h1>卷首・序</h1><div class="nav"><a href="p1.html">‹ 上一卷</a><a href="p2.html">下一卷 ›</a></div><div class="text"><p class="hd" id="a0">有學集</p>
 <p class="hd" id="a1">序</p>
 <p class="noindent">傳稱三不朽：太上立德，其次立功，其次立言。古之人三合為一。今仁義道喪，事勳希微，獨有立言耳，而言亦難矣。剽竊之儒，繩規而矩步，得其象貌，失其精神；跅弛之士，恃聰而騁明，始乎離奇，終乎淺陋。兩者交譏，遞相勝負，而莫知所主神而明之，存乎其人。</p>
